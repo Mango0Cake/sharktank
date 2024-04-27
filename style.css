@@ -1,44 +1,6 @@
-body {
-  background-color:hsl(335, 40, 83);;
-  
-  font-family: 'Space Grotesk';
-  color:  #613F75;
-}
-
-@font-face {
-  font-family: 'Space Grotesk';
-  src:  url('./SpaceGrotesk-VariableFont_wght.ttf').format('truetype');
-}
-
-p {
-  font-size: 30px;
-  text-align: center;
-}
-}
-
-.button {
-  border-radius: 5px;
-  font-family: 'Space Grotesk';
-  font-size: 30px;
-  background-color: rgb(196, 232, 253); /* Green */
-  border: none;
-  color: rgb(224, 144, 124);
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  outline: none;
-}
-
-.home_button {
-  background-color: rgb(189, 217, 253);
-  color: #b86c39;
-}
-
-.home_button:hover {
-  background-color: #ddc5fc;
-  color: hsl(12, 86%, 67%), 100%, 91%);
+.space-grotesk {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
